@@ -6,4 +6,6 @@ const { worker } = require("./mocks/browser");
 worker.start();
 
 const rootElement = document.getElementById("root");
-ReactDOM.render(<App />, rootElement);
+ReactDOM.render(
+<App />,
+ rootElement);

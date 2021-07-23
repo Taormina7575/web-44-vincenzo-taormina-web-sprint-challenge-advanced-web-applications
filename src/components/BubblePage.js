@@ -22,6 +22,7 @@ const BubblePage = () => {
     <div className="container">
       <ColorList colors={colors} editing={editing} toggleEdit={toggleEdit} saveEdit={saveEdit} deleteColor={deleteColor}/>
       <Bubbles colors={colors}/>
+      hi
     </div>
   );
 };
